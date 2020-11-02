@@ -1,16 +1,24 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+import { Redirect, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home.jsx';
-import Listing from './pages/Listings';
-import Help from './pages/Help';
+import Listing from './pages/Listings.jsx';
+import Help from './pages/Help.jsx';
+import Navbar from './components/Navbar.jsx';
+import Nabbar from './components/Navbar.jsx';
 
 const App = () => {
   return (
     <>
+      <Nabbar />
       <Switch>
-        <Route path="/" component={Home}/>
-        <Route path="/listing" components={Listing}/>
-        <Route path="/help" component={Help}/>
+        <Route exact path="/" component={Home}/>
+        <Route exact path="/listing" component={Listing}/>
+        <Route exact path="/help" component={Help}/>
+
+        // redirect to home if the url is messed up 
+        <Redirect to="/" />
       </Switch>
     </>
   );

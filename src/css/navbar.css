@@ -1,0 +1,25 @@
+.navbar{
+    height: 80px;
+    background-color: #fff !important;
+}
+
+.navbar-brand{
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 1.6rem !important;
+    color: #009CDF !important;
+}
+
+.navbar ul a {
+    font-size: 1rem !important;
+    text-transform: capitalize !important;
+}
+
+.navbar ul a:hover {
+    color: #009CDF !important;
+}
+
+.menu_active {
+    font-weight: bold;
+    color: #009CDF !important;
+}
