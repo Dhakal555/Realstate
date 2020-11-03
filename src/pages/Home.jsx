@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/home.css';
 import HCard from '../components/Hcard';
 import Carddata from '../components/Carddata';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -25,7 +26,7 @@ const Home = () => {
 
         {/* displaying data in card using map method from arry of an object*/}
 
-        <div className="container-fluid mb-5 bg-light">
+        <div className="container-fluid pb-5 bg-light">
             <div className="row">
                 <div className="col-10 mx-auto">
                     <div className="row gy-4">
@@ -42,6 +43,8 @@ const Home = () => {
                 </div>
             </div>
         </div>
+                    
+        <Footer />                
 
       </section>
     </>

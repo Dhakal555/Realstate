@@ -21,14 +21,44 @@ code {
 }
 
 /* Hcard section start */
+.icon-image{
+  width: 65px !important;
+  height: 32px !important;
+}
 
 .home-card {
   border: none !important;
 }
 
 .home-card img {
-  width: 350px !important;
+  width: auto !important;
   height: 250px !important;
 }
 
+.button-home-card{
+  background-color: #fff !important;
+  border: 2px solid #009CDF !important;
+  font-weight: bold !important;
+}
+
+.button-home-card:hover {
+  background-color: #009CDF !important;
+  border: 2px solid #009CDF !important;
+  color: #ffffff !important;
+  font-weight: bold !important;
+}
+
 /* Hcard section end */
+
+/* footer section start */
+
+.footer-image {
+  width: 100% !important;
+  height: 410px !important;
+}
+
+.contact-links a{
+  text-decoration: none !important;
+  color: #212529;
+}
+/* footer section end */
