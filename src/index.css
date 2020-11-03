@@ -19,3 +19,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Hcard section start */
+
+.home-card {
+  border: none !important;
+}
+
+.home-card img {
+  width: 350px !important;
+  height: 250px !important;
+}
+
+/* Hcard section end */

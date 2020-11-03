@@ -1,0 +1,25 @@
+.banner-home{
+    background: url('../images/houseblue.jpg') !important;
+    min-height: 680px;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+.textQuote{
+    display: flex-column;
+    margin: 0 auto;
+}
+
+.textQuote h1{
+    font-weight: bold;
+}
+
+.textQuote h5{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.search{
+    display: inline-block;
+    text-align: center;
+}
