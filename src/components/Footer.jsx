@@ -11,7 +11,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 const Footer = () => {
     return (
         <>  
-        <div className="container-fluid">
+        <div className="container-fluid shadow">
             <div className="row">
                 <div className="col-10 mx-auto">
                     <div className="row gt-4">
@@ -23,13 +23,12 @@ const Footer = () => {
                             <a className="m-2" href="https://twitter.com/" target="_blank"><MailIcon /></a>
                             <a className="m-2" href="https://twitter.com/" target="_blank"><LinkedInIcon /></a>
                         </p>
-                        <p className="text-center"></p>
+                        <p className="text-center"> <img src={Icon} className="card-img-top icon-image" alt="Icon image" /> &copy; GharJagga.com | All Rights Reserved | Rupesh Dhakal.</p>     
                     </div>
                 </div>
             </div>
         </div>
-        <p className="text-center"> <img src={Icon} className="card-img-top icon-image" alt="Icon image" /> &copy; GharJagga.com | All Rights Reserved | Rupesh Dhakal.</p>     
-        <img src={Footerimg} className="card-img-top footer-image" alt="footer image" />
+        {/* <img src={Footerimg} className="card-img-top footer-image" alt="footer image" /> */}
         </>
     )
 }

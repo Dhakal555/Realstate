@@ -1,20 +1,21 @@
 .banner-home{
-    background: url('../images/houseblue.jpg') !important;
+    /* z-index: 100; */
+    background-image: url('../images/homebanner.jpg') !important;
     min-height: 680px;
     background-repeat: no-repeat !important;
     background-position: center !important;
     background-size: cover !important;
 }
-.textQuote{
+.search-container{
     display: flex-column;
-    margin: 0 auto;
+    margin: 110px auto;
 }
 
-.textQuote h1{
+.search-container h1{
     font-weight: bold;
 }
 
-.textQuote h5{
+.search-container h5{
     font-weight: bold;
     font-style: italic;
 }

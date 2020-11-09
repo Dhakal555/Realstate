@@ -6,12 +6,11 @@ import Home from './pages/Home.jsx';
 import Listing from './pages/Listings.jsx';
 import Help from './pages/Help.jsx';
 import Navbar from './components/Navbar.jsx';
-import Nabbar from './components/Navbar.jsx';
 
 const App = () => {
   return (
     <>
-      <Nabbar />
+      <Navbar />
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route exact path="/listing" component={Listing}/>

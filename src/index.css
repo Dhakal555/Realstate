@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Mulish', sans-serif !important;
+  color: #3a3a3a !important;
 }
 
 body {
